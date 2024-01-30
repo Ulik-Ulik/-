@@ -1,0 +1,24 @@
+body{
+	background-image: url("../imgs/Rectangle.png");
+	background-color: olive;
+	height:100vh;
+	margin: 0;
+}
+.header{
+	width: 1296px;
+	height: 109px;
+
+	display: flex;
+	padding: 0px 0px 100px 0px;
+
+}
+.nav{
+	
+
+	font-size: 40px;
+	
+}
+.nav a{
+	text-decoration-line: none;
+	margin-right: 40px;
+}
