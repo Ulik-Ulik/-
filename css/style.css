@@ -1,24 +1,121 @@
+@font-face{
+font-family: stolzl_bold;
+src: url("../font/stolzl_bold.otf");
+}
+@font-face{
+font-family: stolzl_light;
+src: url("../font/stolzl_light.otf");
+}
+@font-face{
+font-family: stolzl_book;
+src: url("../font/stolzl_book.otf");
+}
+@font-face{
+font-family: stolzl_regular;
+src: url("../font/stolzl_regular.otf");
+}
+@font-face{
+font-family: stolzl_medium;
+src: url("../font/stolzl_medium.otf");
+}
 body{
 	background-image: url("../imgs/Rectangle.png");
-	background-color: olive;
 	height:100vh;
 	margin: 0;
 }
 .header{
 	width: 1296px;
-	height: 109px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
 
 	display: flex;
-	padding: 0px 0px 100px 0px;
+	padding: 24px 0px 124px 0px;
 
 }
 .nav{
-	
-
 	font-size: 40px;
-	
 }
 .nav a{
 	text-decoration-line: none;
+	font-family: stolzl_book;
+	font-size: 14px;
+	color: white;
 	margin-right: 40px;
+}
+.button-rides{
+	background-color: white;
+	border-radius: 8px;
+	width: 171px;
+	height: 42px;
+	text-align: center;
+}
+
+.button-rides p{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 13px;
+	font-family: stolzl_book;
+
+}
+.main{
+	width: 1296px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.left-wrapper{
+	width: 511px;
+	height: 337px;
+}
+.stars{
+	display: flex;
+	width: 140px;
+	justify-content: space-between;
+}
+.name h1{
+	font-family: stolzl_bold;
+	font-size: 64px;
+	line-height: 1.5;
+	color: white;
+}
+.button-fast-book{
+	vertical-align: top;
+	display: inline-block;
+	font-family: stolzl_regular;
+	font-size: 18px;
+	color: white;
+	background-color: #3D324F;
+	border-radius: 12px;
+	padding: 0px 24px 0px 24px;
+	text-align: center;
+ 	vertical-align: middle;
+}
+.best-offers{
+	width: 1296px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:144px;
+	justify-content: space-between;
+	display: flex;
+
+}
+.best-offers p{
+	font-family: stolzl_medium;
+	font-size: 24px;
+	color: white;
+}
+.offer{
+	width: 300px;
+	padding: 20px 24px 20px 24px;
+	border: 1px;
+	border-color: black;
+	border-radius: 16px;
+}
+.offer p{
+	color: white;
+}
+.offer-button{
+
 }
