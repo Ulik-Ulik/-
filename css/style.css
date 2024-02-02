@@ -30,6 +30,7 @@ body{
 	justify-content: space-between;
 
 	display: flex;
+	vertical-align: middle;
 	padding: 24px 0px 124px 0px;
 
 }
@@ -49,6 +50,7 @@ body{
 	width: 171px;
 	height: 42px;
 	text-align: center;
+
 }
 
 .button-rides p{
@@ -97,25 +99,67 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:144px;
-	justify-content: space-between;
-	display: flex;
+	
 
 }
-.best-offers p{
+.offer-title{
 	font-family: stolzl_medium;
 	font-size: 24px;
 	color: white;
 }
+.offers-container{
+	display: flex;	
+}
+.premium-star{
+	width: 292px;
+}
+.exclusive{
+	width: 318px;
+}
+
 .offer{
-	width: 300px;
+	margin-right: 32px;
+	height: 121px;
 	padding: 20px 24px 20px 24px;
 	border: 1px;
 	border-color: black;
 	border-radius: 16px;
-}
-.offer p{
+	justify-content: space-between;
+	display: flex;
 	color: white;
+	backdrop-filter:  blur(10px);
+	background-color: rgba(255, 255, 255, 0.35);
 }
-.offer-button{
+.offer-info{
+	height: 121px;
+}
 
+.offer-button{
+	display: table-cell;
+	background-color: rgba(61, 50, 79, 1);
+	border-radius: 8px;
+	font-family: stolzl_regular;
+	font-size: 13px;
+	width: 120px;
+	text-align: center;
+	padding: 0px 20px 0px 20px;
+	width: 80px;
+	vertical-align: middle;
+
+
+}
+.hotel-img{
+	border-radius: 12px;
+}
+.room-name{
+	font-family: stolzl_regular;
+	font-size: 15px;
+	margin: 0px;
+	margin-bottom: 12px;	
+}
+.room-price{
+	font-family: stolzl_medium;
+	font-size: 24px;
+	margin: 0px;
+	margin-bottom: 12px;
 }
