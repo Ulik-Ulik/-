@@ -28,15 +28,14 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: space-between;
+	align-items: center;
 
 	display: flex;
-	vertical-align: middle;
+
 	padding: 24px 0px 124px 0px;
 
 }
-.nav{
-	font-size: 40px;
-}
+
 .nav a{
 	text-decoration-line: none;
 	font-family: stolzl_book;
@@ -44,6 +43,7 @@ body{
 	color: white;
 	margin-right: 40px;
 }
+
 .button-rides{
 	background-color: white;
 	border-radius: 8px;
@@ -141,7 +141,6 @@ body{
 	font-family: stolzl_regular;
 	font-size: 13px;
 	width: 120px;
-	text-align: center;
 	padding: 0px 20px 0px 20px;
 	width: 80px;
 	vertical-align: middle;
