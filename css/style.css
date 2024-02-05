@@ -1,29 +1,35 @@
-@font-face{
-font-family: stolzl_bold;
-src: url("../font/stolzl_bold.otf");
+@font-face {
+	font-family: stolzl_bold;
+	src: url("../font/stolzl_bold.otf");
 }
-@font-face{
-font-family: stolzl_light;
-src: url("../font/stolzl_light.otf");
+
+@font-face {
+	font-family: stolzl_light;
+	src: url("../font/stolzl_light.otf");
 }
-@font-face{
-font-family: stolzl_book;
-src: url("../font/stolzl_book.otf");
+
+@font-face {
+	font-family: stolzl_book;
+	src: url("../font/stolzl_book.otf");
 }
-@font-face{
-font-family: stolzl_regular;
-src: url("../font/stolzl_regular.otf");
+
+@font-face {
+	font-family: stolzl_regular;
+	src: url("../font/stolzl_regular.otf");
 }
-@font-face{
-font-family: stolzl_medium;
-src: url("../font/stolzl_medium.otf");
+
+@font-face {
+	font-family: stolzl_medium;
+	src: url("../font/stolzl_medium.otf");
 }
-body{
+
+body {
 	background-image: url("../imgs/Rectangle.png");
-	height:100vh;
+	height: 100vh;
 	margin: 0;
 }
-.header{
+
+.header {
 	width: 1296px;
 	margin-left: auto;
 	margin-right: auto;
@@ -33,10 +39,9 @@ body{
 	display: flex;
 
 	padding: 24px 0px 124px 0px;
-
 }
 
-.nav a{
+.nav a {
 	text-decoration-line: none;
 	font-family: stolzl_book;
 	font-size: 14px;
@@ -44,45 +49,47 @@ body{
 	margin-right: 40px;
 }
 
-.button-rides{
+.button-rides {
 	background-color: white;
 	border-radius: 8px;
 	width: 171px;
 	height: 42px;
 	text-align: center;
-
 }
 
-.button-rides p{
+.button-rides p {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 13px;
 	font-family: stolzl_book;
-
 }
-.main{
+
+.main {
 	width: 1296px;
 	margin-left: auto;
 	margin-right: auto;
 
 }
 
-.left-wrapper{
+.left-wrapper {
 	width: 511px;
 	height: 337px;
 }
-.stars{
+
+.stars {
 	display: flex;
 	width: 140px;
 	justify-content: space-between;
 }
-.name h1{
+
+.name h1 {
 	font-family: stolzl_bold;
 	font-size: 64px;
 	line-height: 1.5;
 	color: white;
 }
-.button-fast-book{
+
+.button-fast-book {
 	vertical-align: top;
 	display: inline-block;
 	font-family: stolzl_regular;
@@ -92,32 +99,35 @@ body{
 	border-radius: 12px;
 	padding: 0px 24px 0px 24px;
 	text-align: center;
- 	vertical-align: middle;
+	vertical-align: middle;
 }
-.best-offers{
+
+.best-offers {
 	width: 1296px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top:144px;
-	
-
+	margin-top: 144px;
 }
-.offer-title{
+
+.offer-title {
 	font-family: stolzl_medium;
 	font-size: 24px;
 	color: white;
 }
-.offers-container{
-	display: flex;	
+
+.offers-container {
+	display: flex;
 }
-.premium-star{
+
+.premium-star {
 	width: 292px;
 }
-.exclusive{
+
+.exclusive {
 	width: 318px;
 }
 
-.offer{
+.offer {
 	margin-right: 32px;
 	height: 121px;
 	padding: 20px 24px 20px 24px;
@@ -127,14 +137,15 @@ body{
 	justify-content: space-between;
 	display: flex;
 	color: white;
-	backdrop-filter:  blur(10px);
+	backdrop-filter: blur(10px);
 	background-color: rgba(255, 255, 255, 0.35);
 }
-.offer-info{
+
+.offer-info {
 	height: 121px;
 }
 
-.offer-button{
+.offer-button {
 	display: table-cell;
 	background-color: rgba(61, 50, 79, 1);
 	border-radius: 8px;
@@ -144,19 +155,20 @@ body{
 	padding: 0px 20px 0px 20px;
 	width: 80px;
 	vertical-align: middle;
-
-
 }
-.hotel-img{
+
+.hotel-img {
 	border-radius: 12px;
 }
-.room-name{
+
+.room-name {
 	font-family: stolzl_regular;
 	font-size: 15px;
 	margin: 0px;
-	margin-bottom: 12px;	
+	margin-bottom: 12px;
 }
-.room-price{
+
+.room-price {
 	font-family: stolzl_medium;
 	font-size: 24px;
 	margin: 0px;
